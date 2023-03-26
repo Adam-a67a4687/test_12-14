@@ -3,7 +3,9 @@ class Transformator:
         self.geoid = geoid
 
     def transform():
-        return 'dummy return'
+        x = 300
+        y = 700
+        return f'{x} + {y}'
     
 if __name__ == '__main__':
     transformator = Transformator('WGS84')
