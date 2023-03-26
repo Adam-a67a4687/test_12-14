@@ -9,6 +9,9 @@ class Transformator:
     
     def some_method():
         pass
+
+    def some_method():
+        pass
     
 if __name__ == '__main__':
     transformator = Transformator('WGS84')
