@@ -3,8 +3,8 @@ class Transformator:
         self.geoid = geoid
 
     def transform():
-        x = 100
-        y = 200
+        x = 300
+        y = 700
         return x + y
     
 if __name__ == '__main__':
