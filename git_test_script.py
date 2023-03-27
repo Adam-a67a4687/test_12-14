@@ -4,7 +4,7 @@ class Transformator:
 
     def transform(self):
         x = 300
-        y = 700
+        y = 701
         return x + y
     
     def display_geoid(self):
