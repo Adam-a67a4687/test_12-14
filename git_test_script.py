@@ -2,9 +2,8 @@ class Transformator:
     def __init__(self, geoid: str) -> None:
         self.geoid = geoid
 
-    def transform(self):
-        x = 300
-        y = 701
+    def transform(self, x, y):
+        print(f'{x} {y}')
         return x + y
     
     def display_geoid(self):
