@@ -4,7 +4,7 @@ class Transformator:
 
     def transform(self, x, y):
         print(f'{x} {y}')
-        return x + y
+        return f'dsaf {x} dsfsf {y} WOIFJQWEONFWNE'
     
     def display_geoid(self):
         print(f'{self.geoid}')
