@@ -7,6 +7,10 @@ class Transformator:
         y = 700
         return x + y
     
+    def display_geoid(self):
+        print(f'{self.geoid}')
+        return self.geoid
+    
 if __name__ == '__main__':
     transformator = Transformator('WGS84')
     transformator.transform()
